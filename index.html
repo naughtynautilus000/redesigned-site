@@ -1,0 +1,171 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Responsive Redesign</title>
+  <script src="./script.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#" class="selected">Menu</a>
+      <a href="#">My Orders</a>
+      <a href="#">My Account</a>
+      <a href="#">Help</a>
+    </nav>
+    <img id="logo" src="./images/logo.png" alt="antonio's pizza logo">
+    <div id="location">
+      <address>
+        <span id="current-street">Antonio's - Providence, 256 Thayer St,<br></span>
+        <span id="current-city">Providence, RI</span> <a id="phone-number" href="tel:+14014553600">(401) 455-3600</a>
+      </address>
+      <a href="#">Change Location</a>
+    </div>
+    <div id="cart-summary">
+      <p>
+        Cart (<span id="num-cart-items">3</span>)&nbsp
+        <img id="cart-image" src="./images/cart-outline.svg" alt="cart image" height="20px">&nbsp
+        <span id="price">$45.47</span>
+      </p>
+    </div>
+  </header>
+  <main>
+    <menu id="categories">
+      <li class="category selected"><h2>Antonio's Classics</h2></li>
+      <li class="category"><h2>BBQ Steak</h2></li>
+      <li class="category"><h2>Chicken Classics</h2></li>
+      <li class="category"><h2>Signature Chicken</h2></li>
+      <li class="category"><h2>Veggie Classics</h2></li>
+      <li class="category"><h2>Signature Veggies</h2></li>
+      <li class="category"><h2>Drinks</h2></li>
+    </menu>
+    <menu id="food-options">
+      <li class="option">
+        <img class="add-item-image" src="./images/cart-plus.svg" alt="add item" height="30px">
+        <h2 class="name">Cheese</h2>
+        <h3 class="description">Mozzarella Cheese and Tomato Sauce</h3>
+        <h4 class="price">$11.95</h4>
+      </li>
+      <li class="option">
+        <img class="add-item-image" src="./images/cart-plus.svg" alt="add item" height="30px">
+        <h2 class="name">Tomato</h2>
+        <h3 class="description">Sliced Tomato, Mozzarella Cheese and Tomato Sauce</h3>
+        <h4 class="price">$13.95</h4>
+      </li>
+      <li class="option">
+        <img class="add-item-image" src="./images/cart-plus.svg" alt="add item" height="30px">
+        <h2 class="name">Mushroom</h2>
+        <h3 class="description">Mushrooms, Mozzarella Cheese and Tomato Sauce</h3>
+        <h4 class="price">$13.95</h4>
+      </li>
+      <li class="option">
+        <img class="add-item-image" src="./images/cart-plus.svg" alt="add item" height="30px">
+        <h2 class="name">Pepperoni</h2>
+        <h3 class="description">Pepperoni, Mozzarella Cheese and Tomato Sauce</h3>
+        <h4 class="price">$13.95</h4>
+      </li>
+      <li class="option">
+        <img class="add-item-image" src="./images/cart-plus.svg" alt="add item" height="30px">
+        <h2 class="name">Sausage</h2>
+        <h3 class="description">Sausage, Mozzarella Cheese and Tomato Sauce</h3>
+        <h4 class="price">$14.95</h4>
+      </li>
+      <li class="option">
+        <img class="add-item-image" src="./images/cart-plus.svg" alt="add item" height="30px">
+        <h2 class="name">Pepperoni Mushroom</h2>
+        <h3 class="description">Pepperoni, Mushrooms, Mozzarella Cheese and Tomato Sauce</h3>
+        <h4 class="price">$14.95</h4>
+      </li>
+      <li class="option">
+        <img class="add-item-image" src="./images/cart-plus.svg" alt="add item" height="30px">
+        <h2 class="name">Pepperoni Sausage</h2>
+        <h3 class="description">Sausage, Pepperoni, Mozzarella Cheese and Tomato Sauce</h3>
+        <h4 class="price">$15.95</h4>
+      </li>
+      <li class="option">
+        <img class="add-item-image" src="./images/cart-plus.svg" alt="add item" height="30px">
+        <h2 class="name">Ground Beef Roni</h2>
+        <h3 class="description">Ground Beef, Pepperoni, Mozzarella Cheese and Tomato Sauce</h3>
+        <h4 class="price">$15.95</h4>
+      </li>
+      <li class="option">
+        <img class="add-item-image" src="./images/cart-plus.svg" alt="add item" height="30px">
+        <h2 class="name">Ground Beef Bacon</h2>
+        <h3 class="description">Ground Beef, Bacon, Mozzarella Cheese and Tomato Sauce</h3>
+        <h4 class="price">$15.95</h4>
+      </li>
+      <li class="option">
+        <img class="add-item-image" src="./images/cart-plus.svg" alt="add item" height="30px">
+        <h2 class="name">Siracusa</h2>
+        <h3 class="description">Sausage, Caramelized Onions, Mozzarella Cheese and Tomato Sauce</h3>
+        <h4 class="price">$15.95</h4>
+      </li>
+      <li class="option">
+        <img class="add-item-image" src="./images/cart-plus.svg" alt="add item" height="30px">
+        <h2 class="name">Hawaiian</h2>
+        <h3 class="description">Ham, Pineapple, Mozzarella Cheese and Tomato Sauce</h3>
+        <h4 class="price">$15.95</h4>
+      </li>
+      <li class="option">
+        <img class="add-item-image" src="./images/cart-plus.svg" alt="add item" height="30px">
+        <h2 class="name">Beef Taco</h2>
+        <h3 class="description">Spicy Ground Beef, Diced Onions and Peppers, Chopped Tomatoes, Cheddar Cheese, Mozzarella Cheese and Tomato Sauce</h3>
+        <h4 class="price">$15.95</h4>
+      </li>
+      <li class="option">
+        <img class="add-item-image" src="./images/cart-plus.svg" alt="add item" height="30px">
+        <h2 class="name">Potato Bacon</h2>
+        <h3 class="description">Sliced Potatoes, Bacon, Sliced Provolone, Cheddar Cheese, Shaved Provolone and Mozzarella Cheese</h3>
+        <h4 class="price">$15.95</h4>
+      </li>
+      <li class="option">
+        <img class="add-item-image" src="./images/cart-plus.svg" alt="add item" height="30px">
+        <h2 class="name">Meat Cravers</h2>
+        <h3 class="description">Pepperoni, Hamburg, Sausage, Ham</h3>
+        <h4 class="price">$16.95</h4>
+      </li>
+      <li class="option">
+        <img class="add-item-image" src="./images/cart-plus.svg" alt="add item" height="30px">
+        <h2 class="name">Today's Special</h2>
+        <h3 class="description">Pepperoni, Sausage, Green Peppers, Onions and Mushrooms</h3>
+        <h4 class="price">$16.95</h4>
+      </li>
+    </menu>
+    <div id="order-summary">
+      <h2>Your Order</h2>
+      <ul id="cart">
+        <li id="item-0" class="cart-item">
+          <img class="remove-item-image" src="./images/close-circle.svg" alt="remove item" height="20px">&nbsp
+          <span class="quantity">1</span>&nbsp
+          <span class="item">medium Cheese Pizza</span>
+          <span class="price">$11.95</span>
+        </li>
+        <li id="item-1" class="cart-item">
+          <img class="remove-item-image" src="./images/close-circle.svg" alt="remove item" height="20px">&nbsp
+          <span class="quantity">2</span>&nbsp
+          <span class="item">medium Pepperoni Pizza</span>
+          <span class="price">$27.90</span>
+        </li>
+        <li id="item-2" class="cart-item">
+          <img class="remove-item-image" src="./images/close-circle.svg" alt="remove item" height="20px">&nbsp
+          <span class="quantity">1</span>&nbsp
+          <span class="item">large Soda</span>
+          <span class="price">$2.25</span>
+        </li>
+      </ul>
+      <div id="discount">
+        <input type="text" placeholder="Enter discount code">
+        <input type="submit" value="Apply">
+      </div>
+      <h4 id="tax">Tax:<span class="amount">$3.37</span></h3>
+      <h3 id="total">Total:<span class="amount">$45.47</span></h3>
+      <hr>
+      <h2>Details</h2>
+      <p>Pickup <br> Tues, 10/18</p>
+      <input type="submit" value="Continue to Payment">
+    </div>
+  </main>
+</body>
+</html>
